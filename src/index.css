@@ -58,3 +58,37 @@ body {
   font-size: 1.2em;
   width: 170px;
 }
+
+.card-detail {
+  border: 1px solid #ccc;
+  box-shadow: 1px 2px 2px #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card-detail img {
+  width: 100%;
+}
+.card-detail p {
+  font-size: 1.20em;
+  padding: 0 15px;
+  font-weight: 300;
+  color: #767676;
+}
+
+.button { 
+  width: 100%;
+  margin: 15px 0;
+  padding: 5px 0;
+  border-color: #ccc;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: #00A699;
+  color: #fff;
+  font-size: 1.1em;
+  opacity: 0.9;
+}
+
+.button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
