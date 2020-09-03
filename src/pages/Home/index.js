@@ -4,7 +4,7 @@ import { Title } from './components/Title'
 import { Ranking } from './components/Ranking'
 
 export const HomePage = () => (
-    <section>
+    <section className="page">
         <Topbar />
         <Title label="Top 5" />
         <Ranking />
