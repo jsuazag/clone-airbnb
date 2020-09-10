@@ -31,6 +31,9 @@ body {
   display: flex;
   overflow-x: auto;
 }
+.ranking a {
+  text-decoration: none;
+}
 
 .ranking article {
   height: 230px;
@@ -91,4 +94,33 @@ body {
 .button:hover {
   opacity: 1;
   cursor: pointer;
+}
+
+.housing {
+  display: flex;
+  border: 1px solid #f2f2f2;
+  box-shadow: 1px 2px 2px #ccc;
+  margin: 10px 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.housing img{
+  width: 200px;
+}
+
+.housing div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.housing h3 {
+  margin: 0px;
+  font-weight: 300;
+}
+
+.housing h6 {
+  margin: 0px;
 }
