@@ -89,11 +89,16 @@ body {
   color: #fff;
   font-size: 1.1em;
   opacity: 0.9;
+  outline: none;
 }
 
 .button:hover {
   opacity: 1;
   cursor: pointer;
+}
+.button:disabled {
+  background-color: #ccc;
+  cursor: no-drop;
 }
 
 .housing {
@@ -123,4 +128,53 @@ body {
 
 .housing h6 {
   margin: 0px;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+}
+.score div {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+}
+.score p {
+  padding: 0px;
+  margin: 0 10px;
+}
+
+.score div i {
+  color: #00A699;
+}
+
+.booking-form {
+  margin: 15px 0;
+}
+
+.booking-form div {
+  border: 1px solid #ccc;
+  background: #f2f2f2;
+  margin: 10px 0;
+  border-radius: 3px;
+  padding: 0 10px;
+}
+
+.booking-form input {
+  width: 100%;
+  padding: 0px;
+  font-weight: 300;
+  outline: none;
+  font-size: 1em;
+  background: transparent;
+  border: none;
+  margin: 3px 0;
+  text-transform: uppercase;
+  font-family: 'Lato';
+}
+
+.booking-form label {
+  color: #777;
+  font-size: 0.95em;
 }

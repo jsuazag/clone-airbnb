@@ -1,4 +1,5 @@
 import React from 'react'
+import { Score } from '../../../components/Score'
 
 export const Housing = (
     { id, score, users, description, image, place }
@@ -8,7 +9,7 @@ export const Housing = (
         <div>
             <h3>{ description }</h3>
             <h6>{ place }</h6>
-            <i class="material-icons">face</i>
+            <Score score={score} users={users} />
         </div>
     </section>
 )
