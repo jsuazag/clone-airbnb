@@ -28,7 +28,7 @@ export const BookingPage = () => {
         console.log('body', body)
     }
 
-    // component did mount
+    // component did mount / constructor
     useEffect(() => {
         // http request
     }, [])

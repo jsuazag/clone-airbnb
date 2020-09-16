@@ -12,7 +12,7 @@ export const Score = ({ score = 0, users = 0 }) => (
     <section className="score">
         <div>
             {
-                [1,2,3,4,5].map(el => el <= score ? <StarFill /> : <StarOutline /> )
+                [1,2,3,4,5].map((el, key) => el <= score ? <StarFill key={key} /> : <StarOutline key={key} /> )
             }
         </div>
         <p>{ users }</p>
