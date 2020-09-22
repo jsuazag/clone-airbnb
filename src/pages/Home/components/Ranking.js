@@ -39,8 +39,5 @@ export const Ranking = () => (
         {
             posts.map(el => <Card key={ el.id } { ...el } /> )
         }
-        {
-            posts.map((el, i) => <Card key={i} id={el.id} image={el.image} description={el.description} place={el.place} /> )
-        }
     </section>
 )
